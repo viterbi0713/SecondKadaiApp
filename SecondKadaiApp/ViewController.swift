@@ -19,7 +19,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    @IBOutlet weak var input: UITextField!
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
+        // segueから遷移先のResultViewControllerを取得する
+        let displayViewController:DisplayViewController = segue.destinationViewController as! DisplayViewController
+        displayViewController.namae = input.text!
+    }
+    
+    @IBAction func unwind(seque: UIStoryboardSegue) {
+        
+    }
 
 }
 

@@ -12,6 +12,7 @@
 		14EAD5FC1D843B9D00690D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14EAD5FA1D843B9D00690D1C /* Main.storyboard */; };
 		14EAD5FE1D843B9D00690D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14EAD5FD1D843B9D00690D1C /* Assets.xcassets */; };
 		14EAD6011D843B9D00690D1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14EAD5FF1D843B9D00690D1C /* LaunchScreen.storyboard */; };
+		14EAD6091D84404A00690D1C /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAD6081D84404A00690D1C /* DisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		14EAD5FD1D843B9D00690D1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14EAD6001D843B9D00690D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14EAD6021D843B9D00690D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14EAD6081D84404A00690D1C /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				14EAD5F61D843B9C00690D1C /* AppDelegate.swift */,
 				14EAD5F81D843B9C00690D1C /* ViewController.swift */,
 				14EAD5FA1D843B9D00690D1C /* Main.storyboard */,
+				14EAD6081D84404A00690D1C /* DisplayViewController.swift */,
 				14EAD5FD1D843B9D00690D1C /* Assets.xcassets */,
 				14EAD5FF1D843B9D00690D1C /* LaunchScreen.storyboard */,
 				14EAD6021D843B9D00690D1C /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14EAD5F91D843B9C00690D1C /* ViewController.swift in Sources */,
+				14EAD6091D84404A00690D1C /* DisplayViewController.swift in Sources */,
 				14EAD5F71D843B9C00690D1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
