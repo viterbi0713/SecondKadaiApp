@@ -19,7 +19,7 @@ class DisplayViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        label.text = namae
+        label.text = "こんにちは、\(namae)さん"
     }
 
     override func didReceiveMemoryWarning() {
